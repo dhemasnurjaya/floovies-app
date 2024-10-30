@@ -1,0 +1,930 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "backdrop_path": "/sTrbHp9ERN8YlUsnbDPmXW8QPLq.jpg",
+            "id": 629374,
+            "title": "John",
+            "original_title": "John",
+            "overview": "A day in the life of John Lennon, alive and well in modern-day New York City. The former Beatle squabbles with a security guard, commiserates with his best friend over lunch, and upsets a bully.",
+            "poster_path": "/jI3J69Yzl2NzeKnNBOTDf00jodx.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                35
+            ],
+            "popularity": 3.607,
+            "release_date": "2018-09-08",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 21
+        },
+        {
+            "backdrop_path": "/f2OZIyRsbE3uJ1UMVnGVDcSNtNX.jpg",
+            "id": 744234,
+            "title": "John",
+            "original_title": "John",
+            "overview": "John tells the story of a young male, a psychiatric hospital patient who witnesses the death of another Black male patient at the hands of white staff. Blurring the boundaries between fact and fiction, this work draws from real life cases of mentally ill Black men who have died as a result of excessive force of the State.",
+            "poster_path": null,
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                99
+            ],
+            "popularity": 0.708,
+            "release_date": "2020-09-17",
+            "video": false,
+            "vote_average": 7.3,
+            "vote_count": 13
+        },
+        {
+            "backdrop_path": "/qFfWFwfaEHzDLWLuttWiYq7Poy2.jpg",
+            "id": 2261,
+            "name": "The Tonight Show Starring Johnny Carson",
+            "original_name": "The Tonight Show Starring Johnny Carson",
+            "overview": "The Tonight Show Starring Johnny Carson is a talk show hosted by Johnny Carson under The Tonight Show franchise from 1962 to 1992. It originally aired during late-night. For its first ten years, Carson's Tonight Show was based in New York City with occasional trips to Burbank, California; in May 1972, the show moved permanently to Burbank, California. In 2002, The Tonight Show Starring Johnny Carson was ranked #12 on TV Guide's 50 Greatest TV Shows of All Time.",
+            "poster_path": "/oA8QVTGlAN511uCAMDN60aVQUs1.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                10767
+            ],
+            "popularity": 437.426,
+            "first_air_date": "1962-10-01",
+            "vote_average": 7.36,
+            "vote_count": 68,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "id": 85,
+            "name": "Johnny Depp",
+            "original_name": "Johnny Depp",
+            "media_type": "person",
+            "adult": false,
+            "popularity": 88.764,
+            "gender": 2,
+            "known_for_department": "Acting",
+            "profile_path": "/6GkSSnhlLirHidf6hThCEFCfYhZ.jpg",
+            "known_for": [
+                {
+                    "backdrop_path": "/wW7Wt5bXzPy4VOEE4LTIUDyDgBo.jpg",
+                    "id": 22,
+                    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+                    "original_title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+                    "overview": "After Port Royal is attacked and pillaged by a mysterious pirate crew, capturing the governor's daughter Elizabeth Swann in the process, William Turner asks free-willing pirate Jack Sparrow to help him locate the crew's ship—The Black Pearl—so that he can rescue the woman he loves.",
+                    "poster_path": "/poHwCZeWzJCShH7tOjg8RIoyjcw.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        12,
+                        14,
+                        28
+                    ],
+                    "popularity": 144.68,
+                    "release_date": "2003-07-09",
+                    "video": false,
+                    "vote_average": 7.8,
+                    "vote_count": 20496
+                },
+                {
+                    "backdrop_path": "/vr6n6ZFUZvedvIlhfYcbCWcaKyW.jpg",
+                    "id": 58,
+                    "title": "Pirates of the Caribbean: Dead Man's Chest",
+                    "original_title": "Pirates of the Caribbean: Dead Man's Chest",
+                    "overview": "Captain Jack Sparrow works his way out of a blood debt with the ghostly Davy Jones to avoid eternal damnation.",
+                    "poster_path": "/uXEqmloGyP7UXAiphJUu2v2pcuE.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        12,
+                        14,
+                        28
+                    ],
+                    "popularity": 166.075,
+                    "release_date": "2006-07-06",
+                    "video": false,
+                    "vote_average": 7.365,
+                    "vote_count": 15824
+                },
+                {
+                    "backdrop_path": "/bSvUW4JQ6g4QiKvwejcfcPRd4Ke.jpg",
+                    "id": 118,
+                    "title": "Charlie and the Chocolate Factory",
+                    "original_title": "Charlie and the Chocolate Factory",
+                    "overview": "A young boy wins a tour through the most magnificent chocolate factory in the world, led by the world's most unusual candy maker.",
+                    "poster_path": "/iKP6wg3c6COUe8gYutoGG7qcPnO.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        12,
+                        35,
+                        10751,
+                        14
+                    ],
+                    "popularity": 119.772,
+                    "release_date": "2005-07-13",
+                    "video": false,
+                    "vote_average": 7.05,
+                    "vote_count": 15061
+                }
+            ]
+        },
+        {
+            "id": 18918,
+            "name": "Dwayne Johnson",
+            "original_name": "Dwayne Johnson",
+            "media_type": "person",
+            "adult": false,
+            "popularity": 68.053,
+            "gender": 2,
+            "known_for_department": "Acting",
+            "profile_path": "/5QApZVV8FUFlVxQpIK3Ew6cqotq.jpg",
+            "known_for": [
+                {
+                    "backdrop_path": "/xu1K9wch9iu5Pqd1wIGHFs2yTfV.jpg",
+                    "id": 353486,
+                    "title": "Jumanji: Welcome to the Jungle",
+                    "original_title": "Jumanji: Welcome to the Jungle",
+                    "overview": "Four teenagers in detention discover an old video game console with a game they’ve never heard of. When they decide to play, they are immediately sucked into the jungle world of Jumanji in the bodies of their avatars. They’ll have to complete the adventure of their lives filled with fun, thrills and danger or be stuck in the game forever!",
+                    "poster_path": "/pSgXKPU5h6U89ipF7HBYajvYt7j.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        12,
+                        35,
+                        14
+                    ],
+                    "popularity": 61.833,
+                    "release_date": "2017-12-09",
+                    "video": false,
+                    "vote_average": 6.825,
+                    "vote_count": 13508
+                },
+                {
+                    "backdrop_path": "/oLma4sWjqlXVr0E3jpaXQCytuG9.jpg",
+                    "id": 512200,
+                    "title": "Jumanji: The Next Level",
+                    "original_title": "Jumanji: The Next Level",
+                    "overview": "As the gang return to Jumanji to rescue one of their own, they discover that nothing is as they expect. The players will have to brave parts unknown and unexplored in order to escape the world’s most dangerous game.",
+                    "poster_path": "/jyw8VKYEiM1UDzPB7NsisUgBeJ8.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        12,
+                        35,
+                        14
+                    ],
+                    "popularity": 100.814,
+                    "release_date": "2019-12-04",
+                    "video": false,
+                    "vote_average": 6.907,
+                    "vote_count": 8562
+                },
+                {
+                    "backdrop_path": "/mMoG4nPSDupXIXOwVvpexZY2W0N.jpg",
+                    "id": 254128,
+                    "title": "San Andreas",
+                    "original_title": "San Andreas",
+                    "overview": "In the aftermath of a massive earthquake in California, a rescue-chopper pilot makes a dangerous journey across the state in order to rescue his estranged daughter.",
+                    "poster_path": "/2Gfjn962aaFSD6eST6QU3oLDZTo.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        28,
+                        18,
+                        53
+                    ],
+                    "popularity": 70.981,
+                    "release_date": "2015-05-27",
+                    "video": false,
+                    "vote_average": 6.244,
+                    "vote_count": 8475
+                }
+            ]
+        },
+        {
+            "backdrop_path": null,
+            "id": 18169,
+            "name": "Johnny Midnight",
+            "original_name": "Johnny Midnight",
+            "overview": "Johnny Midnight is an American crime drama that aired for one season in syndicated from January to December 1960. The series stars Edmond O'Brien as the title character.",
+            "poster_path": "/hP1AxmTV24KOnvVJyIQHZvysT0.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                80,
+                18
+            ],
+            "popularity": 18.664,
+            "first_air_date": "1960-01-03",
+            "vote_average": 0.0,
+            "vote_count": 0,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "id": 56446,
+            "name": "John Cena",
+            "original_name": "John Cena",
+            "media_type": "person",
+            "adult": false,
+            "popularity": 65.205,
+            "gender": 2,
+            "known_for_department": "Acting",
+            "profile_path": "/rgB2eIOt7WyQjdgJCOuESdDlrjg.jpg",
+            "known_for": [
+                {
+                    "backdrop_path": "/hMANgfPHR1tRObNp2oPiOi9mMlz.jpg",
+                    "id": 424783,
+                    "title": "Bumblebee",
+                    "original_title": "Bumblebee",
+                    "overview": "On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken.  When Charlie revives him, she quickly learns this is no ordinary yellow VW bug.",
+                    "poster_path": "/fw02ONlDhrYjTSZV8XO6hhU3ds3.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        28,
+                        12,
+                        878
+                    ],
+                    "popularity": 54.652,
+                    "release_date": "2018-12-15",
+                    "video": false,
+                    "vote_average": 6.7,
+                    "vote_count": 6055
+                },
+                {
+                    "backdrop_path": "/jlGmlFOcfo8n5tURmhC7YVd4Iyy.jpg",
+                    "id": 436969,
+                    "title": "The Suicide Squad",
+                    "original_title": "The Suicide Squad",
+                    "overview": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
+                    "poster_path": "/kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        28,
+                        35,
+                        12
+                    ],
+                    "popularity": 97.368,
+                    "release_date": "2021-07-28",
+                    "video": false,
+                    "vote_average": 7.511,
+                    "vote_count": 8542
+                },
+                {
+                    "backdrop_path": "/sTOhZruocNubL0HxjvdouwCEL9I.jpg",
+                    "id": 364689,
+                    "title": "Ferdinand",
+                    "original_title": "Ferdinand",
+                    "overview": "Ferdinand, a little bull, prefers sitting quietly under a cork tree just smelling the flowers versus jumping around, snorting, and butting heads with other bulls. As Ferdinand grows big and strong, his temperament remains mellow, but one day five men come to choose the \"biggest, fastest, roughest bull\" for the bullfights in Madrid and Ferdinand is mistakenly chosen.  Based on the classic 1936 children's book by Munro Leaf.",
+                    "poster_path": "/rMm94JsRfcOPiPVsTRcBiiVBOhz.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        16,
+                        10751,
+                        12,
+                        35
+                    ],
+                    "popularity": 42.31,
+                    "release_date": "2017-12-09",
+                    "video": false,
+                    "vote_average": 7.212,
+                    "vote_count": 2821
+                }
+            ]
+        },
+        {
+            "id": 2390405,
+            "name": "John",
+            "original_name": "John",
+            "media_type": "person",
+            "adult": false,
+            "popularity": 0.001,
+            "gender": 0,
+            "known_for_department": "Acting",
+            "profile_path": null,
+            "known_for": [
+                {
+                    "backdrop_path": "/4tKAr02RUZOtyg9P4UsIXDnUkm2.jpg",
+                    "id": 624146,
+                    "title": "Adhrushyam",
+                    "original_title": "Adhrushyam",
+                    "overview": "Adhrushyam is a Telugu movie released 2019. It’s directed by Ravi Prakash Krishnamsetty and Angana Roy play as lead in the film",
+                    "poster_path": "/saisC5vHY87g9Gj2if1UEB2w8Wi.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        27,
+                        53
+                    ],
+                    "popularity": 1.303,
+                    "release_date": "2019-03-22",
+                    "video": false,
+                    "vote_average": 0.0,
+                    "vote_count": 0
+                }
+            ]
+        },
+        {
+            "id": 11770,
+            "name": "John Carpenter",
+            "original_name": "John Carpenter",
+            "media_type": "person",
+            "adult": false,
+            "popularity": 31.628,
+            "gender": 2,
+            "known_for_department": "Directing",
+            "profile_path": "/3Qp0mg61u1qSZNJh30BFEUZrIMG.jpg",
+            "known_for": [
+                {
+                    "backdrop_path": "/r9leYNa8nTRCceZrZhP1DXkgKVb.jpg",
+                    "id": 1091,
+                    "title": "The Thing",
+                    "original_title": "The Thing",
+                    "overview": "In the winter of 1982, a twelve-man research team at a remote Antarctic research station discovers an alien buried in the snow for over 100,000 years. Soon unfrozen, the form-changing creature wreaks havoc, creates terror... and becomes one of them.",
+                    "poster_path": "/tzGY49kseSE9QAKk47uuDGwnSCu.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        27,
+                        9648,
+                        878
+                    ],
+                    "popularity": 56.327,
+                    "release_date": "1982-06-25",
+                    "video": false,
+                    "vote_average": 8.1,
+                    "vote_count": 6921
+                },
+                {
+                    "backdrop_path": "/aRka9neADW1M0Zf9lF8kW2jEgXe.jpg",
+                    "id": 948,
+                    "title": "Halloween",
+                    "original_title": "Halloween",
+                    "overview": "Fifteen years after murdering his sister on Halloween Night 1963, Michael Myers escapes from a mental hospital and returns to the small town of Haddonfield, Illinois to kill again.",
+                    "poster_path": "/wijlZ3HaYMvlDTPqJoTCWKFkCPU.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        27,
+                        53
+                    ],
+                    "popularity": 126.939,
+                    "release_date": "1978-10-24",
+                    "video": false,
+                    "vote_average": 7.6,
+                    "vote_count": 5546
+                },
+                {
+                    "backdrop_path": "/aXPCXYFzFzdveVVk1HjVf9fHUcn.jpg",
+                    "id": 1103,
+                    "title": "Escape from New York",
+                    "original_title": "Escape from New York",
+                    "overview": "In a world ravaged by crime, the entire island of Manhattan has been converted into a walled prison where brutal prisoners roam. After the US president crash-lands inside, war hero Snake Plissken has 24 hours to bring him back.",
+                    "poster_path": "/yreqWiQ7IOkXWVB2Tz4LJIs7xqA.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        878,
+                        28
+                    ],
+                    "popularity": 34.846,
+                    "release_date": "1981-05-23",
+                    "video": false,
+                    "vote_average": 7.1,
+                    "vote_count": 3109
+                }
+            ]
+        },
+        {
+            "backdrop_path": "/bJEWmOZp0EGjKAbezny2zpkmw0o.jpg",
+            "id": 1039,
+            "name": "Trapper John, M.D.",
+            "original_name": "Trapper John, M.D.",
+            "overview": "Trapper John, M.D. is an American television medical drama and spin-off of the film MASH, concerning a lovable doctor who became a mentor and father figure in San Francisco, California. The show ran on CBS from September 23, 1979, to September 4, 1986.",
+            "poster_path": "/rUqIscf4OwAs061JVDh3wdNRye9.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 143.326,
+            "first_air_date": "1979-09-23",
+            "vote_average": 6.3,
+            "vote_count": 19,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "id": 82747,
+            "name": "John Zaremba",
+            "original_name": "John Zaremba",
+            "media_type": "person",
+            "adult": false,
+            "popularity": 3.367,
+            "gender": 2,
+            "known_for_department": "Acting",
+            "profile_path": "/6O2Y17y2cpaKJm7hCwuz6pJy6zm.jpg",
+            "known_for": [
+                {
+                    "backdrop_path": "/pvNE91iHqQlowSOwKHXgWV0gCaM.jpg",
+                    "id": 15096,
+                    "title": "20 Million Miles to Earth",
+                    "original_title": "20 Million Miles to Earth",
+                    "overview": "When the first manned flight to Venus returns to Earth, the rocket crash-lands in the Mediterranean near a small Italian fishing village. The locals manage to save one of the astronauts Colonel Calder, the mission commander. A young boy also recovers what turns out to be a specimen of an alien creature. Growing at a fantastic rate, it manages to escape and eventually threatens the city of Rome.",
+                    "poster_path": "/eKK93VytYlXpKqGfyUGUkXgMOS6.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        878,
+                        27
+                    ],
+                    "popularity": 13.242,
+                    "release_date": "1957-02-08",
+                    "video": false,
+                    "vote_average": 6.1,
+                    "vote_count": 149
+                },
+                {
+                    "backdrop_path": "/omPcylzcwlsser7aKTlsyoMJLyK.jpg",
+                    "id": 103,
+                    "name": "The Time Tunnel",
+                    "original_name": "The Time Tunnel",
+                    "overview": "The Time Tunnel is a 1966–1967 U.S. color science fiction TV series, written around a theme of time travel adventure. The show was creator-producer Irwin Allen's third science fiction television series, released by 20th Century Fox and broadcast on ABC. The show ran for one season of 30 episodes. Reruns are viewable on cable and by internet streaming. A pilot for a new series was produced in 2002, although it was not picked up.",
+                    "poster_path": "/6E3Ncd9iLWqi8m1GcdkU5bSwOnS.jpg",
+                    "media_type": "tv",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        10759,
+                        10765,
+                        18
+                    ],
+                    "popularity": 80.618,
+                    "first_air_date": "1966-09-09",
+                    "vote_average": 7.6,
+                    "vote_count": 166,
+                    "origin_country": [
+                        "US"
+                    ]
+                },
+                {
+                    "backdrop_path": "/lSFKANtIz4pljrwSwyCTvT9LxWb.jpg",
+                    "id": 18158,
+                    "title": "Earth vs. the Flying Saucers",
+                    "original_title": "Earth vs. the Flying Saucers",
+                    "overview": "Test space rockets exploding at liftoff and increased reporting of UFO sightings culminate in a direct attempt by alien survivors of a dead, extra-galactic civilization to invade Earth from impervious flying saucers, using ray-weapons of mass destruction.",
+                    "poster_path": "/qCOLglZvQgQAyWMCZodBo3wmgqp.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        28,
+                        878
+                    ],
+                    "popularity": 12.329,
+                    "release_date": "1956-07-04",
+                    "video": false,
+                    "vote_average": 6.0,
+                    "vote_count": 159
+                }
+            ]
+        },
+        {
+            "backdrop_path": "/pX5Zxgw6oqoJHddz7JUlHewgxzO.jpg",
+            "id": 9903,
+            "name": "The Johnny Cash Show",
+            "original_name": "The Johnny Cash Show",
+            "overview": "The Johnny Cash Show was an American television music variety show hosted by Johnny Cash. The Screen Gems 58-episode series ran from June 7, 1969 to March 31, 1971 on ABC; it was taped at the Ryman Auditorium in Nashville, Tennessee. The show reached No. 17 in the Nielsen ratings in 1970.\n\nCash opened each show, and its regulars included members of his touring troupe, June Carter Cash and the Carter Family, The Statler Brothers, Carl Perkins, and The Tennessee Three, with Australian-born musical director-arranger-conductor Bill Walker. The Statler Brothers performed brief comic interludes.\n\nIt featured many folk-country musicians, such as Joni Mitchell, Bob Dylan, Linda Ronstadt, Kris Kristofferson, Mickey Newbury, Neil Young, Gordon Lightfoot, Merle Haggard, James Taylor and Tammy Wynette. It also featured other musicians such as jazz great Louis Armstrong, who died eight months after appearing on the show.",
+            "poster_path": "/xxFcb2jvHByVGJ35i9JyM6HToe7.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                10767
+            ],
+            "popularity": 20.4,
+            "first_air_date": "1969-06-07",
+            "vote_average": 6.5,
+            "vote_count": 3,
+            "origin_country": [
+                "US"
+            ]
+        },
+        {
+            "backdrop_path": "/kKU7kWPnG4KfOpF7rtDEVk8xhmT.jpg",
+            "id": 1147514,
+            "title": "John",
+            "original_title": "John",
+            "overview": "A rollercoaster of emotions, where friendship and love collide with betrayal and heartbreak",
+            "poster_path": "/b3kWvCoAL48qmhro9vgbC6Lb2PV.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "ur",
+            "genre_ids": [
+                80,
+                53
+            ],
+            "popularity": 1.781,
+            "release_date": "2023-07-14",
+            "video": false,
+            "vote_average": 6.2,
+            "vote_count": 7
+        },
+        {
+            "backdrop_path": "/qJMfpdKfiBIEZBpZHUQaxrIyFCZ.jpg",
+            "id": 27513,
+            "name": "The Adventures Of Long John Silver",
+            "original_name": "The Adventures Of Long John Silver",
+            "overview": "A TV series about the Long John Silver character from Treasure Island. It was made in 1954 in colour in Australia for the American and British markets before the development of Australian television.\n\nLong John Silver is the proud captain of his own ship and his own crew. He and his buccaneer cruise around the Caribbean and often stay on the side of the English and fight the French and Spanish.\n\nAfter the long and dangerous adventures, he and his crew rest in the tavern of Miss Purity.\n\nThis series aired in the United States first on Syndicated basis in 1956, but not on a regular basis and completely random as part of another show. Several episodes were edited together and shown as movies in the cinemas under the titles: Under The Black Flag and South Sea Pirates.\n\nAfter that it was sold to the ITV Network in the UK, and aired in 1957. In 1958 Australian ABC screened the series as part of Children's TV Club show.",
+            "poster_path": "/kqrl6yfs0IDD1VwumMEVJNGQXlq.jpg",
+            "media_type": "tv",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                10759
+            ],
+            "popularity": 6.902,
+            "first_air_date": "1957-04-09",
+            "vote_average": 7.0,
+            "vote_count": 2,
+            "origin_country": [
+                "AU"
+            ]
+        },
+        {
+            "id": 118545,
+            "name": "Dakota Johnson",
+            "original_name": "Dakota Johnson",
+            "media_type": "person",
+            "adult": false,
+            "popularity": 71.11,
+            "gender": 1,
+            "known_for_department": "Acting",
+            "profile_path": "/qFek0KqpaPV5mVyHHNfAapDE9Tj.jpg",
+            "known_for": [
+                {
+                    "backdrop_path": "/mgY8An5qVCgLh97KOWeJVJarskL.jpg",
+                    "id": 216015,
+                    "title": "Fifty Shades of Grey",
+                    "original_title": "Fifty Shades of Grey",
+                    "overview": "When college senior Anastasia Steele steps in for her sick roommate to interview prominent businessman Christian Grey for their campus paper, little does she realize the path her life will take. Christian, as enigmatic as he is rich and powerful, finds himself strangely drawn to Ana, and she to him. Though sexually inexperienced, Ana plunges headlong into an affair -- and learns that Christian's true sexual proclivities push the boundaries of pain and pleasure.",
+                    "poster_path": "/63kGofUkt1Mx0SIL4XI4Z5AoSgt.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        18,
+                        10749,
+                        53
+                    ],
+                    "popularity": 182.856,
+                    "release_date": "2015-02-11",
+                    "video": false,
+                    "vote_average": 5.884,
+                    "vote_count": 11693
+                },
+                {
+                    "backdrop_path": "/jjuDhXlAY7yHc50t8gEZWvlkoEn.jpg",
+                    "id": 337167,
+                    "title": "Fifty Shades Freed",
+                    "original_title": "Fifty Shades Freed",
+                    "overview": "Believing they have left behind shadowy figures from their past, newlyweds Christian and Ana fully embrace an inextricable connection and shared life of luxury. But just as she steps into her role as Mrs. Grey and he relaxes into an unfamiliar stability, new threats could jeopardize their happy ending before it even begins.",
+                    "poster_path": "/vwFR5WI1RQ1RCxS0cdTbiSgaXJr.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        18,
+                        10749
+                    ],
+                    "popularity": 99.983,
+                    "release_date": "2018-01-17",
+                    "video": false,
+                    "vote_average": 6.702,
+                    "vote_count": 7947
+                },
+                {
+                    "backdrop_path": "/9dWH18IZf0KdGx0kJaONzWcmD69.jpg",
+                    "id": 341174,
+                    "title": "Fifty Shades Darker",
+                    "original_title": "Fifty Shades Darker",
+                    "overview": "When a wounded Christian Grey tries to entice a cautious Ana Steele back into his life, she demands a new arrangement before she will give him another chance. As the two begin to build trust and find stability, shadowy figures from Christian’s past start to circle the couple, determined to destroy their hopes for a future together.",
+                    "poster_path": "/7CBO9GhsUeMSsWQb47WTPZnKjdj.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        18,
+                        10749
+                    ],
+                    "popularity": 57.564,
+                    "release_date": "2017-02-08",
+                    "video": false,
+                    "vote_average": 6.5,
+                    "vote_count": 7572
+                }
+            ]
+        },
+        {
+            "id": 8891,
+            "name": "John Travolta",
+            "original_name": "John Travolta",
+            "media_type": "person",
+            "adult": false,
+            "popularity": 42.311,
+            "gender": 2,
+            "known_for_department": "Acting",
+            "profile_path": "/eVWcevrvGLLqt9gkDMruqgLJPsp.jpg",
+            "known_for": [
+                {
+                    "backdrop_path": "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+                    "id": 680,
+                    "title": "Pulp Fiction",
+                    "original_title": "Pulp Fiction",
+                    "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+                    "poster_path": "/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        53,
+                        80
+                    ],
+                    "popularity": 108.981,
+                    "release_date": "1994-09-10",
+                    "video": false,
+                    "vote_average": 8.488,
+                    "vote_count": 27802
+                },
+                {
+                    "backdrop_path": "/uWIyXlBRwW2MIBcBysj50A9nv7D.jpg",
+                    "id": 13053,
+                    "title": "Bolt",
+                    "original_title": "Bolt",
+                    "overview": "Bolt is the star of the biggest show in Hollywood. The only problem is, he thinks it's real. After he's accidentally shipped to New York City and separated from Penny, his beloved co-star and owner, Bolt must harness all his \"super powers\" to find a way home.",
+                    "poster_path": "/z9VHoUcZ1GiH3f3qYz7Me7Zc1Fd.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        16,
+                        10751,
+                        12,
+                        35
+                    ],
+                    "popularity": 59.388,
+                    "release_date": "2008-11-21",
+                    "video": false,
+                    "vote_average": 6.518,
+                    "vote_count": 5983
+                },
+                {
+                    "backdrop_path": "/1lNlqbnXVMGo8hOfEvIxThoAwcz.jpg",
+                    "id": 754,
+                    "title": "Face/Off",
+                    "original_title": "Face/Off",
+                    "overview": "In order to foil a terrorist plot, an FBI agent undergoes facial transplant surgery and assumes the identity of a criminal mastermind. The plan turns sour when the criminal wakes up prematurely and seeks revenge.",
+                    "poster_path": "/69Xzn8UdPbVnmqSChKz2RTpoNfB.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        28,
+                        80,
+                        878
+                    ],
+                    "popularity": 32.795,
+                    "release_date": "1997-06-27",
+                    "video": false,
+                    "vote_average": 7.0,
+                    "vote_count": 5254
+                }
+            ]
+        },
+        {
+            "backdrop_path": "/yHMcA3WVTnCT6yMwqGDLJ86sDpQ.jpg",
+            "id": 1194391,
+            "title": "John",
+            "original_title": "John",
+            "overview": "John is an eighteen-year-old Latino male prostitute, living in the poorest area of Hollywood, L.A. He often steals condoms and medicine from the local stores to support himself, due to his inexperience in the hustling world. Peaches is a black trans prostitute, who often helps John financially. Miguel is an older hustler who teaches John how to please men. John often spends his night wandering through the street, looking for older men to buy him for the night. His clients, men who come from all levels of society, share with John their stories and secrets.",
+            "poster_path": "/pCEkEIeULyzX6R3HcgA8gDp9oEo.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                18
+            ],
+            "popularity": 2.219,
+            "release_date": "2023-10-02",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 5
+        },
+        {
+            "id": 5723,
+            "name": "John Leguizamo",
+            "original_name": "John Leguizamo",
+            "media_type": "person",
+            "adult": false,
+            "popularity": 43.682,
+            "gender": 2,
+            "known_for_department": "Acting",
+            "profile_path": "/kwYCdxTlDh9zauUCg4mp2XTCQTw.jpg",
+            "known_for": [
+                {
+                    "backdrop_path": "/kK5OeulwVDniPgjNOGHvzcORzdG.jpg",
+                    "id": 425,
+                    "title": "Ice Age",
+                    "original_title": "Ice Age",
+                    "overview": "With the impending ice age almost upon them, a mismatched trio of prehistoric critters – Manny the woolly mammoth, Diego the saber-toothed tiger and Sid the giant sloth – find an orphaned infant and decide to return it to its human parents. Along the way, the unlikely allies become friends but, when enemies attack, their quest takes on far nobler aims.",
+                    "poster_path": "/gLhHHZUzeseRXShoDyC4VqLgsNv.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        16,
+                        35,
+                        10751,
+                        12
+                    ],
+                    "popularity": 96.428,
+                    "release_date": "2002-03-10",
+                    "video": false,
+                    "vote_average": 7.363,
+                    "vote_count": 13172
+                },
+                {
+                    "backdrop_path": "/wRTZaxAiDP0ZEeQsO0HiiSqYCSp.jpg",
+                    "id": 950,
+                    "title": "Ice Age: The Meltdown",
+                    "original_title": "Ice Age: The Meltdown",
+                    "overview": "Diego, Manny and Sid return in this sequel to the hit animated movie Ice Age. This time around, the deep freeze is over, and the ice-covered earth is starting to melt, which will destroy the trio's cherished valley. The impending disaster prompts them to reunite and warn all the other beasts about the desperate situation.",
+                    "poster_path": "/zDduhCHasKQ9YOTvlOreHem7Wbi.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        16,
+                        10751,
+                        35,
+                        12
+                    ],
+                    "popularity": 65.199,
+                    "release_date": "2006-03-29",
+                    "video": false,
+                    "vote_average": 6.709,
+                    "vote_count": 9640
+                },
+                {
+                    "backdrop_path": "/gkxSIlZPEwGPimQ8TEE8C52cOSO.jpg",
+                    "id": 8355,
+                    "title": "Ice Age: Dawn of the Dinosaurs",
+                    "original_title": "Ice Age: Dawn of the Dinosaurs",
+                    "overview": "Times are changing for Manny the moody mammoth, Sid the motor mouthed sloth and Diego the crafty saber-toothed tiger. Life heats up for our heroes when they meet some new and none-too-friendly neighbors – the mighty dinosaurs.",
+                    "poster_path": "/cXOLaxcNjNAYmEx1trZxOTKhK3Q.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        16,
+                        35,
+                        10751,
+                        12
+                    ],
+                    "popularity": 66.139,
+                    "release_date": "2009-06-26",
+                    "video": false,
+                    "vote_average": 6.8,
+                    "vote_count": 8234
+                }
+            ]
+        },
+        {
+            "id": 34486,
+            "name": "Ashley Johnson",
+            "original_name": "Ashley Johnson",
+            "media_type": "person",
+            "adult": false,
+            "popularity": 27.481,
+            "gender": 1,
+            "known_for_department": "Acting",
+            "profile_path": "/8s36QwB7Zq3PrbY1W6a6ctTFFoe.jpg",
+            "known_for": [
+                {
+                    "backdrop_path": "/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+                    "id": 24428,
+                    "title": "The Avengers",
+                    "original_title": "The Avengers",
+                    "overview": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
+                    "poster_path": "/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        878,
+                        28,
+                        12
+                    ],
+                    "popularity": 186.856,
+                    "release_date": "2012-04-25",
+                    "video": false,
+                    "vote_average": 7.719,
+                    "vote_count": 30630
+                },
+                {
+                    "backdrop_path": "/xXHtSqFx8mLjzNGX9oCKQEx2yTa.jpg",
+                    "id": 3981,
+                    "title": "What Women Want",
+                    "original_title": "What Women Want",
+                    "overview": "Advertising executive Nick Marshall is as cocky as they come, but what happens to a chauvinistic guy when he can suddenly hear what women are thinking? Nick gets passed over for a promotion, but after an accident enables him to hear women's thoughts, he puts his newfound talent to work against Darcy, his new boss, who seems to be infatuated with him.",
+                    "poster_path": "/n5NOxrcgeiCxvEn47FG9bvlHNsV.jpg",
+                    "media_type": "movie",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        35,
+                        10749
+                    ],
+                    "popularity": 34.997,
+                    "release_date": "2000-12-15",
+                    "video": false,
+                    "vote_average": 6.5,
+                    "vote_count": 3909
+                },
+                {
+                    "backdrop_path": "/u7G2G7jrBfHfIyj8ifzkq8I4tq3.jpg",
+                    "id": 62710,
+                    "name": "Blindspot",
+                    "original_name": "Blindspot",
+                    "overview": "A vast international plot explodes when a beautiful Jane Doe is discovered naked in Times Square, completely covered in mysterious, intricate tattoos with no memory of who she is or how she got there. But there's one tattoo that is impossible to miss: the name of FBI agent Kurt Weller, emblazoned across her back. \"Jane,\" Agent Weller and the rest of the FBI quickly realize that each mark on her body is a crime to solve, leading them closer to the truth about her identity and the mysteries to be revealed.",
+                    "poster_path": "/4AeYzamQmd9Fa6hawDmYKbdvBSe.jpg",
+                    "media_type": "tv",
+                    "adult": false,
+                    "original_language": "en",
+                    "genre_ids": [
+                        80,
+                        18,
+                        10759
+                    ],
+                    "popularity": 155.594,
+                    "first_air_date": "2015-09-21",
+                    "vote_average": 7.38,
+                    "vote_count": 2414,
+                    "origin_country": [
+                        "US"
+                    ]
+                }
+            ]
+        },
+        {
+            "backdrop_path": "/7I6VUdPj6tQECNHdviJkUHD2u89.jpg",
+            "id": 603692,
+            "title": "John Wick: Chapter 4",
+            "original_title": "John Wick: Chapter 4",
+            "overview": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+            "poster_path": "/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg",
+            "media_type": "movie",
+            "adult": false,
+            "original_language": "en",
+            "genre_ids": [
+                28,
+                53,
+                80
+            ],
+            "popularity": 237.236,
+            "release_date": "2023-03-22",
+            "video": false,
+            "vote_average": 7.7,
+            "vote_count": 6434
+        }
+    ],
+    "total_pages": 500,
+    "total_results": 10000
+}
