@@ -16,11 +16,11 @@ Future<void> main() async {
   // register bloc observer
   Bloc.observer = AppBlocObserver();
 
-  runApp(WeatherApp());
+  runApp(FlooviesApp());
 }
 
-class WeatherApp extends StatelessWidget {
-  WeatherApp({super.key});
+class FlooviesApp extends StatelessWidget {
+  FlooviesApp({super.key});
 
   final _appRouter = AppRouter();
 
@@ -36,7 +36,7 @@ class WeatherApp extends StatelessWidget {
         builder: (context, state) {
           return MaterialApp.router(
             debugShowCheckedModeBanner: false,
-            title: 'Weather App',
+            title: 'Floovies',
             theme: lightTheme,
             darkTheme: darkTheme,
             themeMode: state,
