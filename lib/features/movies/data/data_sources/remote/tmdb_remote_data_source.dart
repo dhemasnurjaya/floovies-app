@@ -5,7 +5,7 @@ import 'package:floovies/core/network/network.dart';
 import 'package:floovies/features/movies/data/models/paged_model.dart';
 import 'package:floovies/features/movies/data/models/multi_search_model.dart';
 
-abstract class TmdbApiRemoteDataSource {
+abstract class TmdbRemoteDataSource {
   Future<PagedModel<SearchResultModel>> getMultiSearchResult({
     required String searchQuery,
     bool includeAdult = false,
@@ -13,11 +13,11 @@ abstract class TmdbApiRemoteDataSource {
   });
 }
 
-class TmdbApiRemoteDataSourceImpl implements TmdbApiRemoteDataSource {
+class TmdbRemoteDataSourceImpl implements TmdbRemoteDataSource {
   final Env env;
   final Network network;
 
-  TmdbApiRemoteDataSourceImpl({
+  TmdbRemoteDataSourceImpl({
     required this.env,
     required this.network,
   });

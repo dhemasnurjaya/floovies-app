@@ -3,7 +3,7 @@ import 'package:floovies/core/data/local/theme_mode_config.dart';
 import 'package:floovies/core/env.dart';
 import 'package:floovies/core/network/network.dart';
 import 'package:floovies/core/presentation/theme/theme_mode_cubit.dart';
-import 'package:floovies/features/movies/data/data_sources/remote/tmdb_api_remote_data_source.dart';
+import 'package:floovies/features/movies/data/data_sources/remote/tmdb_remote_data_source.dart';
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -35,8 +35,8 @@ void setup() {
   );
 
   // data sources
-  getIt.registerLazySingleton<TmdbApiRemoteDataSource>(
-    () => TmdbApiRemoteDataSourceImpl(
+  getIt.registerLazySingleton<TmdbRemoteDataSource>(
+    () => TmdbRemoteDataSourceImpl(
       env: getIt(),
       network: getIt(),
     ),

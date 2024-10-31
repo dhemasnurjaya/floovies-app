@@ -1,6 +1,6 @@
 import 'package:floovies/core/env.dart';
 import 'package:floovies/core/network/network.dart';
-import 'package:floovies/features/movies/data/data_sources/remote/tmdb_api_remote_data_source.dart';
+import 'package:floovies/features/movies/data/data_sources/remote/tmdb_remote_data_source.dart';
 import 'package:floovies/features/movies/data/models/multi_search_model.dart';
 import 'package:floovies/features/movies/data/models/paged_model.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -15,12 +15,12 @@ class MockNetwork extends Mock implements Network {}
 void main() {
   late MockEnv mockEnv;
   late MockNetwork mockNetwork;
-  late TmdbApiRemoteDataSource dataSource;
+  late TmdbRemoteDataSource dataSource;
 
   setUp(() {
     mockEnv = MockEnv();
     mockNetwork = MockNetwork();
-    dataSource = TmdbApiRemoteDataSourceImpl(
+    dataSource = TmdbRemoteDataSourceImpl(
       env: mockEnv,
       network: mockNetwork,
     );
