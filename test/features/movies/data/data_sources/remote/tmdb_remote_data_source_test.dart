@@ -1,8 +1,8 @@
 import 'package:floovies/core/env.dart';
 import 'package:floovies/core/network/network.dart';
 import 'package:floovies/features/movies/data/data_sources/remote/tmdb_remote_data_source.dart';
-import 'package:floovies/features/movies/data/models/multi_search_model.dart';
-import 'package:floovies/features/movies/data/models/paged_model.dart';
+import 'package:floovies/features/movies/data/models/search_result_model.dart';
+import 'package:floovies/features/movies/data/models/paged_response_model.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 
@@ -29,9 +29,7 @@ void main() {
   });
 
   group('getMultiSearchResult', () {
-    test(
-        'should return PagedModel<SearchResultModel> when getMultiSearchResult is called',
-        () async {
+    test('should return PagedResponseModel<SearchResultModel>', () async {
       // Arrange
       const tSearchQuery = 'john';
       final tResponse = readResponse('multi_search');
@@ -45,7 +43,7 @@ void main() {
           await dataSource.getMultiSearchResult(searchQuery: tSearchQuery);
 
       // Assert
-      expect(result, isA<PagedModel<SearchResultModel>>());
+      expect(result, isA<PagedResponseModel<SearchResultModel>>());
     });
   });
 }

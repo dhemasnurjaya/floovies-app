@@ -2,11 +2,11 @@ import 'dart:convert';
 
 import 'package:floovies/core/env.dart';
 import 'package:floovies/core/network/network.dart';
-import 'package:floovies/features/movies/data/models/paged_model.dart';
-import 'package:floovies/features/movies/data/models/multi_search_model.dart';
+import 'package:floovies/features/movies/data/models/paged_response_model.dart';
+import 'package:floovies/features/movies/data/models/search_result_model.dart';
 
 abstract class TmdbRemoteDataSource {
-  Future<PagedModel<SearchResultModel>> getMultiSearchResult({
+  Future<PagedResponseModel<SearchResultModel>> getMultiSearchResult({
     required String searchQuery,
     bool includeAdult = false,
     int page = 1,
@@ -23,7 +23,7 @@ class TmdbRemoteDataSourceImpl implements TmdbRemoteDataSource {
   });
 
   @override
-  Future<PagedModel<SearchResultModel>> getMultiSearchResult({
+  Future<PagedResponseModel<SearchResultModel>> getMultiSearchResult({
     required String searchQuery,
     bool includeAdult = false,
     int page = 1,
@@ -39,7 +39,7 @@ class TmdbRemoteDataSourceImpl implements TmdbRemoteDataSource {
     );
     final response = await network.get(uri);
     final jsonResponse = jsonDecode(response) as Map<String, dynamic>;
-    return PagedModel<SearchResultModel>.fromJson(
+    return PagedResponseModel<SearchResultModel>.fromJson(
       jsonResponse,
       (json) => SearchResultModel.fromJson(json as Map<String, dynamic>),
     );

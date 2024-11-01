@@ -1,7 +1,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-part 'multi_search_model.freezed.dart';
-part 'multi_search_model.g.dart';
+part 'search_result_model.freezed.dart';
+part 'search_result_model.g.dart';
 
 @Freezed(unionKey: 'media_type')
 class SearchResultModel with _$SearchResultModel {

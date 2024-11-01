@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'multi_search_model.dart';
+part of 'search_result_model.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
