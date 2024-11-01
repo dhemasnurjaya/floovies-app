@@ -20,7 +20,7 @@ void main() {
   test('should call getMultiSearchResult from repository', () async {
     // arrange
     const tSearchQuery = 'john';
-    const tSearchAllParams = SearchAllParams(searchQuery: tSearchQuery);
+    const tSearchAllParams = SearchAllParams(query: tSearchQuery);
     final tPagedResponse = PagedResponse<SearchResult>(
       page: 1,
       totalPages: 1,

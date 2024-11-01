@@ -16,7 +16,7 @@ class SearchAll extends UseCase<PagedResponse<SearchResult>, SearchAllParams> {
     SearchAllParams params,
   ) {
     return repository.getMultiSearchResult(
-      searchQuery: params.searchQuery,
+      searchQuery: params.query,
       includeAdult: params.includeAdult,
       page: params.page,
     );
@@ -24,16 +24,16 @@ class SearchAll extends UseCase<PagedResponse<SearchResult>, SearchAllParams> {
 }
 
 class SearchAllParams extends Equatable {
-  final String searchQuery;
+  final String query;
   final bool includeAdult;
   final int page;
 
   const SearchAllParams({
-    required this.searchQuery,
+    required this.query,
     this.includeAdult = false,
     this.page = 1,
   });
 
   @override
-  List<Object?> get props => [searchQuery, includeAdult, page];
+  List<Object?> get props => [query, includeAdult, page];
 }
