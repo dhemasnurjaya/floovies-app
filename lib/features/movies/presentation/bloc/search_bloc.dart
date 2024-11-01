@@ -1,3 +1,4 @@
+import 'package:bloc_concurrency/bloc_concurrency.dart';
 import 'package:equatable/equatable.dart';
 import 'package:floovies/core/presentation/bloc/error_state.dart';
 import 'package:floovies/features/movies/domain/entities/paged_response.dart';
@@ -10,7 +11,10 @@ part 'search_state.dart';
 
 class SearchBloc extends Bloc<SearchEvent, SearchState> {
   SearchBloc({required this.searchAll}) : super(SearchInitialState()) {
-    on<SearchQueryChangedEvent>(_onSearchQueryChanged);
+    on<SearchQueryChangedEvent>(
+      _onSearchQueryChanged,
+      transformer: droppable(),
+    );
   }
 
   final SearchAll searchAll;

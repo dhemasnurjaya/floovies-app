@@ -7,6 +7,7 @@ import 'package:floovies/features/movies/data/data_sources/remote/tmdb_remote_da
 import 'package:floovies/features/movies/data/repositories/tmdb_repository_impl.dart';
 import 'package:floovies/features/movies/domain/repositories/tmdb_repository.dart';
 import 'package:floovies/features/movies/domain/use_cases/search_all.dart';
+import 'package:floovies/features/movies/presentation/bloc/search_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -65,6 +66,9 @@ void setup() {
       );
     },
     dependsOn: [SharedPreferences, Config<ThemeMode>],
+  );
+  getIt.registerLazySingleton<SearchBloc>(
+    () => SearchBloc(searchAll: getIt()),
   );
 
   // others
