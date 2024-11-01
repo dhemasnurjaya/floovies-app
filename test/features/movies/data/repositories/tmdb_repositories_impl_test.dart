@@ -26,7 +26,7 @@ void main() {
         () async {
       // arrange
       const tSearchQuery = 'john';
-      const tResponseModel = PagedResponseModel<SearchResultModel>(
+      final tResponseModel = PagedResponseModel<SearchResultModel>(
         page: 1,
         totalPages: 1,
         totalResults: 1,

@@ -4,6 +4,8 @@ import 'package:floovies/core/env.dart';
 import 'package:floovies/core/network/network.dart';
 import 'package:floovies/core/presentation/theme/theme_mode_cubit.dart';
 import 'package:floovies/features/movies/data/data_sources/remote/tmdb_remote_data_source.dart';
+import 'package:floovies/features/movies/data/repositories/tmdb_repository_impl.dart';
+import 'package:floovies/features/movies/domain/repositories/tmdb_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -43,7 +45,9 @@ void setup() {
   );
 
   // repositories
-  // TODO: register repositories here
+  getIt.registerLazySingleton<TmdbRepository>(
+    () => TmdbRepositoryImpl(remoteDataSource: getIt()),
+  );
 
   // use cases
   // TODO: register use cases here
