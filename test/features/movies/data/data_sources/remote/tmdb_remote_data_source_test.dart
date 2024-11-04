@@ -36,7 +36,9 @@ void main() {
 
       when(() => mockEnv.tmdbApiScheme).thenReturn('https');
       when(() => mockEnv.tmdbApiHost).thenReturn('api.themoviedb.org');
-      when(() => mockNetwork.get(any())).thenAnswer((_) async => tResponse);
+      when(() => mockEnv.tmdbApiPort).thenReturn(443);
+      when(() => mockNetwork.post(any(), body: any(named: 'body')))
+          .thenAnswer((_) async => tResponse);
 
       // Act
       final result =

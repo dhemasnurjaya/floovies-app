@@ -10,9 +10,9 @@
             "type": "dart",
             "args": [
                 "--dart-define=PUBLIC_AUTH_KEY=public_auth_key",
-                "--dart-define=QUOTE_API_SCHEME=http",
-                "--dart-define=TMDB_API_HOST=localhost",
-                "--dart-define=QUOTE_API_PORT=8080"
+                "--dart-define=TMDB_API_SCHEME=http",
+                "--dart-define=TMDB_API_HOST=10.0.2.2",
+                "--dart-define=TMDB_API_PORT=8080"
             ]
         }
     ]
