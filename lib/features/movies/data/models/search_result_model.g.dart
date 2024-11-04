@@ -9,7 +9,7 @@ part of 'search_result_model.dart';
 _$SearchResultModelMovieImpl _$$SearchResultModelMovieImplFromJson(
         Map<String, dynamic> json) =>
     _$SearchResultModelMovieImpl(
-      backdropPath: json['backdrop_path'] as String,
+      backdropPath: json['backdrop_path'] as String?,
       id: (json['id'] as num).toInt(),
       title: json['title'] as String,
       originalTitle: json['original_title'] as String,

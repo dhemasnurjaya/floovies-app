@@ -33,6 +33,7 @@ class TmdbRemoteDataSourceImpl implements TmdbRemoteDataSource {
       scheme: env.tmdbApiScheme,
       host: env.tmdbApiHost,
       port: env.tmdbApiPort,
+      path: '/',
     );
     final body = TmdbProxyRequestModel(path: '/search/multi', queries: {
       'query': searchQuery,

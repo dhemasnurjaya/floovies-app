@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
+
 import 'package:floovies/core/error/exception.dart';
 import 'package:http/http.dart' as http;
 
@@ -57,7 +58,7 @@ class NetworkImpl implements Network {
     final response = await _httpClient.post(
       uri,
       headers: headers,
-      body: body, //!= null ? Uri.encodeComponent(body) : null,
+      body: body,
     );
     final stringResponse = utf8.decode(response.bodyBytes);
 

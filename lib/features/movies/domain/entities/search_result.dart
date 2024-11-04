@@ -7,7 +7,7 @@ part 'search_result.freezed.dart';
 class SearchResult with _$SearchResult {
   @FreezedUnionValue('movie')
   const factory SearchResult.movie({
-    required String backdropPath,
+    required String? backdropPath,
     required int id,
     required String title,
     required String originalTitle,

@@ -7,7 +7,7 @@ part 'search_result_model.g.dart';
 class SearchResultModel with _$SearchResultModel {
   @JsonSerializable(fieldRename: FieldRename.snake)
   const factory SearchResultModel.movie({
-    required String backdropPath,
+    required String? backdropPath,
     required int id,
     required String title,
     required String originalTitle,

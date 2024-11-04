@@ -62,7 +62,9 @@ class _HomePageState extends State<HomePage> {
                     title: Text(title),
                     subtitle: Text(overview),
                     leading: Image.network(
-                      'https://image.tmdb.org/t/p/w500$posterPath',
+                      posterPath != null
+                          ? 'https://image.tmdb.org/t/p/w500$posterPath'
+                          : 'https://placehold.co/500x500.png',
                       width: 50,
                     ),
                     onTap: () {},
@@ -88,7 +90,9 @@ class _HomePageState extends State<HomePage> {
                     title: Text(name),
                     subtitle: Text(overview),
                     leading: Image.network(
-                      'https://image.tmdb.org/t/p/w500$posterPath',
+                      posterPath != null
+                          ? 'https://image.tmdb.org/t/p/w500$posterPath'
+                          : 'https://placehold.co/500x500.png',
                       width: 50,
                     ),
                     onTap: () {},
@@ -107,7 +111,9 @@ class _HomePageState extends State<HomePage> {
                   return ListTile(
                     title: Text(name),
                     leading: Image.network(
-                      'https://image.tmdb.org/t/p/w500$profilePath',
+                      profilePath != null
+                          ? 'https://image.tmdb.org/t/p/w500$profilePath'
+                          : 'https://placehold.co/500x500.png',
                       width: 50,
                     ),
                     onTap: () {},
