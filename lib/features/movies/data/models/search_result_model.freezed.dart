@@ -37,7 +37,7 @@ mixin _$SearchResultModel {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
     required TResult Function(
-            String backdropPath,
+            String? backdropPath,
             int id,
             String title,
             String originalTitle,
@@ -83,7 +83,7 @@ mixin _$SearchResultModel {
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function(
-            String backdropPath,
+            String? backdropPath,
             int id,
             String title,
             String originalTitle,
@@ -129,7 +129,7 @@ mixin _$SearchResultModel {
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
     TResult Function(
-            String backdropPath,
+            String? backdropPath,
             int id,
             String title,
             String originalTitle,
@@ -261,7 +261,7 @@ abstract class _$$SearchResultModelMovieImplCopyWith<$Res>
   @override
   @useResult
   $Res call(
-      {String backdropPath,
+      {String? backdropPath,
       int id,
       String title,
       String originalTitle,
@@ -291,7 +291,7 @@ class __$$SearchResultModelMovieImplCopyWithImpl<$Res>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? backdropPath = null,
+    Object? backdropPath = freezed,
     Object? id = null,
     Object? title = null,
     Object? originalTitle = null,
@@ -307,10 +307,10 @@ class __$$SearchResultModelMovieImplCopyWithImpl<$Res>
     Object? voteCount = null,
   }) {
     return _then(_$SearchResultModelMovieImpl(
-      backdropPath: null == backdropPath
+      backdropPath: freezed == backdropPath
           ? _value.backdropPath
           : backdropPath // ignore: cast_nullable_to_non_nullable
-              as String,
+              as String?,
       id: null == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
@@ -394,7 +394,7 @@ class _$SearchResultModelMovieImpl implements _SearchResultModelMovie {
       _$$SearchResultModelMovieImplFromJson(json);
 
   @override
-  final String backdropPath;
+  final String? backdropPath;
   @override
   final int id;
   @override
@@ -498,7 +498,7 @@ class _$SearchResultModelMovieImpl implements _SearchResultModelMovie {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
     required TResult Function(
-            String backdropPath,
+            String? backdropPath,
             int id,
             String title,
             String originalTitle,
@@ -561,7 +561,7 @@ class _$SearchResultModelMovieImpl implements _SearchResultModelMovie {
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function(
-            String backdropPath,
+            String? backdropPath,
             int id,
             String title,
             String originalTitle,
@@ -624,7 +624,7 @@ class _$SearchResultModelMovieImpl implements _SearchResultModelMovie {
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
     TResult Function(
-            String backdropPath,
+            String? backdropPath,
             int id,
             String title,
             String originalTitle,
@@ -731,7 +731,7 @@ class _$SearchResultModelMovieImpl implements _SearchResultModelMovie {
 
 abstract class _SearchResultModelMovie implements SearchResultModel {
   const factory _SearchResultModelMovie(
-      {required final String backdropPath,
+      {required final String? backdropPath,
       required final int id,
       required final String title,
       required final String originalTitle,
@@ -749,7 +749,7 @@ abstract class _SearchResultModelMovie implements SearchResultModel {
   factory _SearchResultModelMovie.fromJson(Map<String, dynamic> json) =
       _$SearchResultModelMovieImpl.fromJson;
 
-  String get backdropPath;
+  String? get backdropPath;
   @override
   int get id;
   String get title;
@@ -1028,7 +1028,7 @@ class _$SearchResultModelTvImpl implements _SearchResultModelTv {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
     required TResult Function(
-            String backdropPath,
+            String? backdropPath,
             int id,
             String title,
             String originalTitle,
@@ -1091,7 +1091,7 @@ class _$SearchResultModelTvImpl implements _SearchResultModelTv {
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function(
-            String backdropPath,
+            String? backdropPath,
             int id,
             String title,
             String originalTitle,
@@ -1154,7 +1154,7 @@ class _$SearchResultModelTvImpl implements _SearchResultModelTv {
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
     TResult Function(
-            String backdropPath,
+            String? backdropPath,
             int id,
             String title,
             String originalTitle,
@@ -1466,7 +1466,7 @@ class _$SearchResultModelPersonImpl implements _SearchResultModelPerson {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
     required TResult Function(
-            String backdropPath,
+            String? backdropPath,
             int id,
             String title,
             String originalTitle,
@@ -1516,7 +1516,7 @@ class _$SearchResultModelPersonImpl implements _SearchResultModelPerson {
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
     TResult? Function(
-            String backdropPath,
+            String? backdropPath,
             int id,
             String title,
             String originalTitle,
@@ -1566,7 +1566,7 @@ class _$SearchResultModelPersonImpl implements _SearchResultModelPerson {
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
     TResult Function(
-            String backdropPath,
+            String? backdropPath,
             int id,
             String title,
             String originalTitle,

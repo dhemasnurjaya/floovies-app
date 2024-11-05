@@ -79,4 +79,73 @@ void main() {
       expect(() => call(tUri), throwsA(isA<UnauthorizedException>()));
     });
   });
+
+  group('post', () {
+    final tUri = Uri.parse('https://test.com');
+    final tBody = '{"key": "value"}';
+
+    test('should perform a POST request on a URL', () async {
+      // Arrange
+      when(() => mockHttpClient.post(tUri, headers: null, body: tBody))
+          .thenAnswer((_) async => http.Response(
+                '{"key": "value"}',
+                HttpStatus.ok,
+              ));
+
+      // Act
+      await networkImpl.post(tUri, body: tBody);
+
+      // Assert
+      verify(() => mockHttpClient.post(tUri, headers: null, body: tBody));
+    });
+
+    test('should return the response body when the status code is 200',
+        () async {
+      // Arrange
+      when(() => mockHttpClient.post(tUri, headers: null, body: tBody))
+          .thenAnswer((_) async => http.Response(
+                tBody,
+                HttpStatus.ok,
+              ));
+
+      // Act
+      final result = await networkImpl.post(tUri, body: tBody);
+
+      // Assert
+      expect(result, tBody);
+    });
+
+    test('should throw a ServerException when the response code is not 200',
+        () async {
+      // Arrange
+      when(() => mockHttpClient.post(tUri, headers: null, body: tBody))
+          .thenAnswer((_) async => http.Response(
+                'Something went wrong',
+                HttpStatus.internalServerError,
+              ));
+
+      // Act
+      final call = networkImpl.post;
+
+      // Assert
+      expect(() => call(tUri, body: tBody), throwsA(isA<ServerException>()));
+    });
+
+    test('should throw a UnauthorizedException when the response code is 401',
+        () async {
+      // Arrange
+      when(() => mockHttpClient.post(tUri, headers: null, body: tBody))
+          .thenAnswer((_) async => http.Response(
+                'Unauthorized',
+                HttpStatus.unauthorized,
+              ));
+
+      // Act
+      final call = networkImpl.post;
+
+      // Assert
+      expect(
+          () => call(tUri, body: tBody), throwsA(isA<UnauthorizedException>()));
+    });
+  });
 }
