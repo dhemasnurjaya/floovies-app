@@ -23,6 +23,10 @@ class SearchBloc extends Bloc<SearchEvent, SearchState> {
     SearchQueryChangedEvent event,
     Emitter<SearchState> emit,
   ) async {
+    if (event.query.isEmpty) {
+      return;
+    }
+
     emit(const SearchLoadingState());
     final result = await searchAll(
       SearchAllParams(
